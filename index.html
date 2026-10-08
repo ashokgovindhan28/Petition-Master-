@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Petition Master - Indian Document Library</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #222;
+    }
+
+    header {
+      background: #ffffff;
+      padding: 18px 6%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav a {
+      margin-left: 15px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 70px 20px;
+      background: #eef3ff;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    .search {
+      margin: 30px auto;
+      max-width: 650px;
+      display: flex;
+    }
+
+    .search input {
+      flex: 1;
+      padding: 16px;
+      border: 1px solid #ccc;
+      border-radius: 8px 0 0 8px;
+      font-size: 16px;
+    }
+
+    .search button {
+      padding: 16px 25px;
+      border: none;
+      background: #2563eb;
+      color: white;
+      border-radius: 0 8px 8px 0;
+      font-size: 16px;
+    }
+
+    .section {
+      padding: 45px 6%;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+    }
+
+    .category {
+      background: white;
+      padding: 25px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    .category a {
+      text-decoration: none;
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    .about {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      line-height: 1.7;
+    }
+
+    footer {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 30px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 32px;
+      }
+
+      nav {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">🇮🇳 Petition Master</div>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Documents</a>
+      <a href="#">Petitions</a>
+      <a href="#">About</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+
+    <h1>India's Document & Petition Library</h1>
+
+    <p>
+      Find government documents, petitions, forms, RTI resources,
+      rules and useful public documents.
+    </p>
+
+    <div class="search">
+      <input
+        type="text"
+        placeholder="Search documents, petitions, forms..."
+      >
+
+      <button>Search</button>
+    </div>
+
+  </section>
+
+  <section class="section">
+
+    <h2>Popular Categories</h2>
+
+    <div class="categories">
+
+      <div class="category">
+        📋<br><br>
+        <a href="#">Petition Templates</a>
+      </div>
+
+      <div class="category">
+        📄<br><br>
+        <a href="#">Government Orders</a>
+      </div>
+
+      <div class="category">
+        🏛️<br><br>
+        <a href="#">RTI Documents</a>
+      </div>
+
+      <div class="category">
+        ⚖️<br><br>
+        <a href="#">Acts & Rules</a>
+      </div>
+
+      <div class="category">
+        🏘️<br><br>
+        <a href="#">Panchayat</a>
+      </div>
+
+      <div class="category">
+        🪪<br><br>
+        <a href="#">Government Forms</a>
+      </div>
+
+      <div class="category">
+        🌾<br><br>
+        <a href="#">Agriculture</a>
+      </div>
+
+      <div class="category">
+        🎓<br><br>
+        <a href="#">Education</a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="section">
+
+    <div class="about">
+
+      <h2>About Petition Master</h2>
+
+      <p>
+        Petition Master is an independent platform designed to make
+        Indian government documents, petition formats, forms and
+        public information easier to find and understand.
+      </p>
+
+    </div>
+
+  </section>
+
+  <footer>
+
+    <p>© 2026 Petition Master</p>
+
+    <p>
+      Independent information platform. Always verify important
+      information with the original issuing authority.
+    </p>
+
+  </footer>
+
+</body>
+  </html>
